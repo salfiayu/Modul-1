@@ -1,4 +1,3 @@
-
 # <h1 align="center">Laporan Praktikum Struktur Data<br> Modul 1 Pengenalan C++ </h1>
 <p align="center">Salfi Ayu Ramadhani / 103112430224</p>
 
@@ -401,9 +400,9 @@ int main() {
 ```
 
 > Screenshoot  
-> ![Screenshot Soal 3]
+> ![Screenshot Soal 3](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/soal%203%20(1).png)
 
-Program menampilkan pola angka simetris dengan tanda `*` di tengah. Deret kiri menurun dari n ke 1, sedangkan deret kanan menaik dari 1 ke n. Setiap baris jumlah angkanya berkurang hingga hanya tersisa 1, kemudian ditutup dengan tanda `*` di baris paling bawah. Soal ini melatih kombinasi loop menurun, loop menaik, serta penempatan simbol khusus.
+Program ini meminta input n, lalu mencetak pola angka menurun dari n ke 1 dan naik kembali dari 1 ke n dengan tanda * di tengah pada setiap baris, diulang hingga angka 1, kemudian ditutup dengan satu * di bawah pola.
 
 ---
 

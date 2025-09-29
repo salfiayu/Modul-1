@@ -45,10 +45,11 @@ int main() {
 }
 ```
 
-> screenshoot 
+> Screenshoot 
 > ![Screenshot Soal 1](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/Guided%201%20struct.png)
 
-Program diminta menghitung perulangan yang di berikan user dan keluar akan mengulang sebanyak yang di input oleh user
+Program ini membuat struct Mahasiswa untuk menyimpan data nama, nim, dan ipk.
+Program meminta input dari user, lalu menampilkan kembali data mahasiswa tersebut.
 
 ---
 
@@ -72,10 +73,10 @@ int main()
 }
 ```
 
-> Output  
-> ![Screenshot Soal 2](output/screenshot_guided_soal2.png)
+> Screenshoot  
+> ![Screenshot Soal 2](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/Guided%202%20aritmatika.png)
 
-Progam di minta menghitung luas keliling, menentukan panjang, lebar, luas, keliling
+Program menghitung (7+3)/(3+1) = 10/4. Karena pembagian integer, hasilnya 2, lalu ditampilkan sebagai 2.
 
 ### Soal 3
 
@@ -139,10 +140,10 @@ int main()
 }
 ```
 
-> Output  
-> ![Screenshot Soal 3](output/screenshot_guided_soal3.png)
+> Screenshoot 
+> ![Screenshot Soal 3](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/Guided%203%20kondisi.png)
 
-Progam di minta menentukan Hari Senin - Minggu, Tentukan Libur dan Kerja
+Program ini menghitung diskon belanja atau menentukan hari kerja/libur.
 
 ### Soal 4
 
@@ -179,10 +180,10 @@ int main()
 }
 ```
 
-> Output  
-> ![Screenshot Soal 4](output/screenshot_guided_soal4.png)
+> Screenshoot
+> ![Screenshot Soal 4](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/Guided%204%20perulangan.png)
 
-Progam di minta menghitung rumus Aritmatika yang sudah ada
+Program mencetak teks berulang sesuai jumlah yang dimasukkan.
 
 ### Soal 5
 
@@ -239,10 +240,10 @@ int main()
 
 ```
 
-> Output  
-> ![Screenshot Soal 5](output/screenshot_guided_soal5.png)
+> Screenshoot 
+> ![Screenshot Soal 5](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/Guided%205%20fungsi.png)
 
-Progam di minta meyimpan data nama mahasiswa yang sudah di input oleh user
+Program menghitung luas dan keliling persegi panjang dengan fungsi lalu menampilkannya lewat prosedur.
 
 ### Soal 6
 
@@ -263,11 +264,10 @@ int main()
 
 ```
 
-> Output  
-> ![Screenshot Soal 5](output/screenshot_guided_soal5.png)
+> Screenshoot 
+> ![Screenshot Soal 6](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/Guided%206%20test.png)
 
-Progam di minta meyimpan data nama mahasiswa yang sudah di input oleh user
-
+Program membaca satu karakter dengan getchar() lalu menampilkannya kembali ke layar.
 
 ## Unguided
 
@@ -298,10 +298,10 @@ int main() {
 }
 ```
 
-> Output  
-> ![Screenshot Soal 1](output/screenshot_soal1.png)
+> Screenshoot  
+> ![Screenshot Soal 1](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/soal%201.png)
 
-Program diminta menampilkan hasil operasi aritmatika dari dua bilangan float. Logikanya sederhana: baca input, lakukan operasi dasar (+, -, *, /), lalu tampilkan hasilnya. Program juga melatih penggunaan kondisi sederhana untuk mencegah pembagian dengan nol.
+Program ini meminta dua bilangan, lalu menampilkan hasil + , - , × , ÷. Jika bilangan kedua nol, pembagian tidak dilakukan.
 
 ---
 
@@ -351,10 +351,10 @@ int main() {
 }
 ```
 
-> Output  
-> ![Screenshot Soal 2](output/screenshot_soal2.png)
+> Sreenshoot 
+> ![Screenshot Soal 2](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/soal%202.png)
 
-Program membaca input bilangan bulat 0–100 lalu mengubahnya menjadi teks. Logikanya menggunakan array string untuk menyimpan kata-kata dasar angka, lalu dipetakan sesuai nilai input. Soal ini melatih penggunaan percabangan (if–else) untuk menangani kasus satuan, belasan, puluhan, dan angka seratus.
+Program ini mengubah angka 0–100 menjadi tulisan bahasa Indonesia (terbilang), lalu menampilkannya.
 
 ---
 
@@ -400,8 +400,8 @@ int main() {
 }
 ```
 
-> Output  
-> ![Screenshot Soal 3](output/screenshot_soal3.png)
+> Screenshoot  
+> ![Screenshot Soal 3](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/soal%203.png)
 
 Program menampilkan pola angka simetris dengan tanda `*` di tengah. Deret kiri menurun dari n ke 1, sedangkan deret kanan menaik dari 1 ke n. Setiap baris jumlah angkanya berkurang hingga hanya tersisa 1, kemudian ditutup dengan tanda `*` di baris paling bawah. Soal ini melatih kombinasi loop menurun, loop menaik, serta penempatan simbol khusus.
 
@@ -409,5 +409,5 @@ Program menampilkan pola angka simetris dengan tanda `*` di tengah. Deret kiri m
 
 ## Referensi
 
-1. https://en.wikipedia.org/wiki/Data_structure (diakses 28-09-2025)
+1. https://tahtamedia.co.id/index.php/issj/article/download/376/374/1410 (diakses 29-09-2025)
 

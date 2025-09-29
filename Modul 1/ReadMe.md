@@ -46,7 +46,7 @@ int main() {
 ```
 
 > screenshoot 
-> ![Screenshot Soal 1](output/screenshot_guided_soal1.png)
+> ![Screenshot Soal 1](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/Guided%201%20struct.png)
 
 Program diminta menghitung perulangan yang di berikan user dan keluar akan mengulang sebanyak yang di input oleh user
 
@@ -54,52 +54,22 @@ Program diminta menghitung perulangan yang di berikan user dan keluar akan mengu
 
 ### Soal 2
 
-Mengerjakan Fungsi 
+Aritmatika
 
 ```cpp
 #include <iostream>
 using namespace std;
-
-void tampilkanHasil(double p, double l)
-{
-    cout << "\n=== Hasil Perhitungan ===" << endl;
-    cout << "Panjang : " << p << endl;
-    cout << "Lebar   : " << l << endl;
-    cout << "Luas    : " << p * l << endl;
-    cout << "Keliling: " << 2 * (p + l) << endl;
-}
-
-double hitungLuas(double p, double l)
-{
-    return p * l;
-}
-
-double hitungKeliling(double p, double l)
-{
-    return 2 * (p + l);
-}
-
 int main()
 {
-    double panjang, lebar;
-
-    cout << "Masukkan panjang: ";
-    cin >> panjang;
-    cout << "Masukkan lebar  : ";
-    cin >> lebar;
-
-    double luas = hitungLuas(panjang, lebar);
-    double keliling = hitungKeliling(panjang, lebar);
-
-    cout << "\nDihitung dengan fungsi:" << endl;
-    cout << "Luas      = " << luas << endl;
-    cout << "Keliling  = " << keliling << endl;
-
-    tampilkanHasil(panjang, lebar);
-
+    int W, X, Y;
+    float Z;
+    X = 7;
+    Y = 3;
+    W = 1;
+    Z = (X + Y) / (Y + W);
+    cout << "Nilai z = " << Z << endl;
     return 0;
 }
-
 ```
 
 > Output  
@@ -109,11 +79,38 @@ Progam di minta menghitung luas keliling, menentukan panjang, lebar, luas, kelil
 
 ### Soal 3
 
-Mengerjakan kondisi hari Kerja dan Libur
+Kondisi
 
 ```cpp
 #include <iostream>
 using namespace std;
+// int main()
+// {
+//     double tot_pembelian, diskon;
+//     cout << "total pembelian: Rp";
+//     cin >> tot_pembelian;
+//     diskon = 0;
+//     if (tot_pembelian >= 100000)
+//         diskon = 0.05 * tot_pembelian;
+//     cout << "besar diskon = Rp" << diskon;
+// }
+
+
+
+// int main()
+// {
+//     double tot_pembelian, diskon;
+//     cout << "total pembelian: Rp";
+//     cin >> tot_pembelian;
+//     diskon = 0;
+//     if (tot_pembelian >= 100000)
+//         diskon = 0.05 * tot_pembelian;
+//     else
+//         diskon = 0;
+//     cout << "besar diskon = Rp" << diskon;
+// }
+
+
 
 int main()
 {
@@ -140,7 +137,6 @@ int main()
     }
     return 0;
 }
-
 ```
 
 > Output  
@@ -150,20 +146,35 @@ Progam di minta menentukan Hari Senin - Minggu, Tentukan Libur dan Kerja
 
 ### Soal 4
 
-Mengerjakan Hitung Rumus Aritmatika
+Perulangan
 
 ```cpp
 #include <iostream>
 using namespace std;
+// int main()
+// {
+//     int jum;
+//     cout << "jumlah perulangan: ";
+//     cin >> jum;
+//     for (int i = 0; i < jum; i++)
+//     {
+//         cout << "saya sahroni\n";
+//     }
+//     return 1;
+// }
+
+
+// while
 int main()
 {
-    int W, X, Y;
-    float Z;
-    X = 7;
-    Y = 3;
-    W = 1;
-    Z = (X + Y) / (Y + W);
-    cout << "Nilai z = " << Z << endl;
+    int i = 1;
+    int jum;
+    cin >> jum;
+    do
+    {
+        cout << "bahlil ke-" << (i + 1) << endl;
+        i++;
+    } while (i < jum);
     return 0;
 }
 ```
@@ -175,36 +186,78 @@ Progam di minta menghitung rumus Aritmatika yang sudah ada
 
 ### Soal 5
 
-Mengerjakan Struct Mahasiswa
+Fungsi
 
 ```cpp
 #include <iostream>
-#include <string>
 using namespace std;
 
-struct Mahasiswa {
-    string nama;
-    string nim;
-    float ipk;
-};
+// Prosedur: hanya menampilkan hasil, tidak mengembalikan nilai
+void tampilkanHasil(double p, double l)
+{
+    cout << "\n=== Hasil Perhitungan ===" << endl;
+    cout << "Panjang : " << p << endl;
+    cout << "Lebar   : " << l << endl;
+    cout << "Luas    : " << p * l << endl;
+    cout << "Keliling: " << 2 * (p + l) << endl;
+}
 
-int main() {
+// Fungsi: mengembalikan nilai luas
+double hitungLuas(double p, double l)
+{
+    return p * l;
+}
 
-    Mahasiswa mhs1;
+// Fungsi: mengembalikan nilai keliling
+double hitungKeliling(double p, double l)
+{
+    return 2 * (p + l);
+}
 
-    cout << "Masukkan Nama Mahasiswa: ";
-    getline(cin, mhs1.nama);
-   
-    cout << "Masukkan NIM Mahasiswa : ";
-    cin >> mhs1.nim;
-    cout << "Masukkan IPK Mahasiswa : ";
-    cin >> mhs1.ipk;
+int main()
+{
+    double panjang, lebar;
 
-    cout << "\n=== Data Mahasiswa ===" << endl;
-    cout << "Nama : " << mhs1.nama << endl;
-    cout << "NIM  : " << mhs1.nim << endl;
-    cout << "IPK  : " << mhs1.ipk << endl;
+    cout << "Masukkan panjang: ";
+    cin >> panjang;
+    cout << "Masukkan lebar  : ";
+    cin >> lebar;
 
+    // Panggil fungsi
+    double luas = hitungLuas(panjang, lebar);
+    double keliling = hitungKeliling(panjang, lebar);
+
+    cout << "\nDihitung dengan fungsi:" << endl;
+    cout << "Luas      = " << luas << endl;
+    cout << "Keliling  = " << keliling << endl;
+
+    // Panggil prosedur
+    tampilkanHasil(panjang, lebar);
+
+    return 0;
+}
+
+```
+
+> Output  
+> ![Screenshot Soal 5](output/screenshot_guided_soal5.png)
+
+Progam di minta meyimpan data nama mahasiswa yang sudah di input oleh user
+
+### Soal 6
+
+Test
+
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+    string ch;
+    cout << "Masukkan sebuah karakter: ";
+    // cin >> ch;
+    ch = getchar();  //Menggunakan getchar() untuk membaca satu karakter
+    cout << "Karakter yang Anda masukkan adalah: " << ch << endl;
     return 0;
 }
 

@@ -401,7 +401,7 @@ int main() {
 ```
 
 > Screenshoot  
-> ![Screenshot Soal 3](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/soal%203.png)
+> ![Screenshot Soal 3]
 
 Program menampilkan pola angka simetris dengan tanda `*` di tengah. Deret kiri menurun dari n ke 1, sedangkan deret kanan menaik dari 1 ke n. Setiap baris jumlah angkanya berkurang hingga hanya tersisa 1, kemudian ditutup dengan tanda `*` di baris paling bawah. Soal ini melatih kombinasi loop menurun, loop menaik, serta penempatan simbol khusus.
 

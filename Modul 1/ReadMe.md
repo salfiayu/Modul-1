@@ -10,7 +10,7 @@ C++ adalah bahasa pemrograman yang dibuat oleh Bjarne. Stroustrup, yang merupaka
 
 ### Soal 1
 
-Mengerjakan Perulangan
+Sruct
 
 ```cpp
 #include <iostream>
@@ -45,7 +45,7 @@ int main() {
 }
 ```
 
-> Output  
+> screenshoot 
 > ![Screenshot Soal 1](output/screenshot_guided_soal1.png)
 
 Program diminta menghitung perulangan yang di berikan user dan keluar akan mengulang sebanyak yang di input oleh user
